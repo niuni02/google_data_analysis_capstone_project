@@ -54,4 +54,4 @@ ggplot(data=dailyActivity, aes(x=TotalSteps, y=Calories, colour=Id)) +
   labs(title="Fitbit Daily Activity: Total Steps vs Calories",
        caption="Data source: https://www.kaggle.com/datasets/arashnic/fitbit") +
   annotate("text", x=25000, y=1500, label="Strong positive relationship.")
-# the graph indicates a strong positive relationship between total steps and calories... which is expected.
+# the graph indicates a strong positive relationship between total steps and calories, which is expected.
